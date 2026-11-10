@@ -1,0 +1,39 @@
+{
+  "name": "ODESQUA Electrical & Electronics Ventures",
+  "short_name": "ODESQUA",
+  "description": "Electrical and electronics engineering services by ODESQUA",
+  "theme_color": "#0A2F6C",
+  "background_color": "#0A2F6C",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "./images/logo/odesqua-logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./images/logo/odesqua-logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "utilities"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "url": "/dashboard",
+      "description": "Go to dashboard"
+    },
+    {
+      "name": "Tasks",
+      "url": "/tasks",
+      "description": "View all tasks"
+    }
+  ]
+}
